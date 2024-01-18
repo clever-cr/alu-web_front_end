@@ -700,8 +700,11 @@ ul.row {
   z-index: -1;
 }
 .card-work:hover .card-image {
-  transform: scale(0.95);
+  transform: scale(1.2);
   transition: var(–transition-duration) var(transition-cubic-bezier);
+}
+.card-work:hover .card-outer {
+  transform: scale(0.95);
 }
 .nav .nav-link::before {
   transition: var(–transition-duration) var(transition-cubic-bezier);
