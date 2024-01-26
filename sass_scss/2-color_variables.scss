@@ -1,12 +1,13 @@
-$primary_color:#3D3D3D;
-$bg_color:#6D6D6D;
+$text-color: #3D3D3D;
+$bg-color: #6D6D6D;
 body {
-    color: $primary_color;
-    background-color: $bg_color;
+  color: $text-color;
+  background-color: $bg-color;
 }
-p{
-    color: $primary_color;
-}
-h2{
-    background-color: $bg_color;
+
+p {
+  color: $text-color; }
+
+h2 {
+  background-color: $bg-color;
 }
